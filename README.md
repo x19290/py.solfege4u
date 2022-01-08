@@ -1,4 +1,4 @@
-# Solfege 192
+# Solfege For You
 
 Generates sample solfege in MusicXML and WAV.
 
@@ -12,21 +12,21 @@ or in
 Doh, Dee, Ray,... (--lyric=english) are for singing synthesis.
 Do, Di, Re,... (--lyric=italian) are for printing.
 
-- solfege192_demo.py  
+- solfege4u_demo.py  
   demo program. generates MusicXML (or textart)
 
-- x192/solfege/\*.py  
+- x19290/solfege/\*.py  
   main implementations, API providers
 
-- x192/solfege/demo/*.py  
-  plugins for `solfege192_demo.py`
+- x19290/solfege/demo/*.py  
+  plugins for `solfege4u_demo.py`
 
 - cheatweb-sinsy  
   generates a .wav file from given .musicxml hitting
   [https://sinsy.jp/](https://sinsy.jp/)
 
 - [9sample-outputs/](9sample-outputs/0readme.md)  
-  outputs from solfege192_demo.py
+  outputs from solfege4u_demo.py
 
 The two commands have --help options.
 

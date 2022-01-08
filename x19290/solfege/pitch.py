@@ -11,7 +11,7 @@
 # GNU General Public License for more details.
 
 r'''
-A system called "Pitch System" by me -- the heart of "Solfege 192"
+A system called "Pitch System" by me -- the heart of "Solfege For You"
 
 - keys (C, Cs=C♯,...) are subclasses of Pitch
 - C.__name__ == 'C'

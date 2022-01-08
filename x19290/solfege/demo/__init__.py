@@ -27,7 +27,7 @@ def __strconsts():
     natural_progname, progname = map(name, (r' ', r'-'))
     revision = r'v0.01'
     author = __author__[:__author__.index(r'@')]
-    identity = r'https://bitbucket.org/%s/py.solfege192.git' % author
+    identity = r'https://github.com/%s/py.solfege4u.git' % author
 
     yield from (natural_progname, progname, revision, identity)
 

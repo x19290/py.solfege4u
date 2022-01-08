@@ -13,5 +13,5 @@
 # GNU General Public License for more details.
 
 if __name__ == r'__main__':
-    from x192.cheatweb import callmain
+    from x19290.cheatweb import callmain
     callmain(__file__)

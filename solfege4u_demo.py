@@ -20,13 +20,13 @@ GNU General Public License for more details.
 '''[1:-1]
 
 
-from x192.solfege.ns import A
+from x19290.solfege.ns import A
 
 
 def main(args=None):
-    import x192.solfege.demo as demo
-    from x192.solfege.demo import __author__, shared_opts
-    from x192.lib.importlib import import_file
+    import x19290.solfege.demo as demo
+    from x19290.solfege.demo import __author__, shared_opts
+    from x19290.lib.importlib import import_file
     from argparse import ArgumentParser
     from pathlib import Path
 
@@ -47,7 +47,7 @@ def main(args=None):
 
     for y in g:
         stem = y.stem
-        mod = import_file(y, r'x192.solfege.demo.' + stem)
+        mod = import_file(y, r'x19290.solfege.demo.' + stem)
         ns = mod.__dict__
         argspec = ns[stem + r'demo_argspec']
         argspec(subparsers.add_parser(stem[:1], aliases=(stem,)))
