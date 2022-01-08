@@ -1,0 +1,2 @@
+- v1: first release
+- v2: release without cheatweb-sinsy; with an internal singing synthesizer

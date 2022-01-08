@@ -1,0 +1,1 @@
+- smoke test for --movable-do not-textart
