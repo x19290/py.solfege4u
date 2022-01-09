@@ -25,7 +25,7 @@ Do, Di, Re,... (--lyric=italian) are for printing.
   generates a .wav file from given .musicxml hitting
   [https://sinsy.jp/](https://sinsy.jp/)
 
-- [9sample-outputs/](9sample-outputs/0readme.md)  
+- [9sample-outputs/](../9sample-outputs/0readme.md)  
   outputs from solfege4u_demo.py
 
 The two commands have --help options.
@@ -33,6 +33,6 @@ The two commands have --help options.
 Currently, the easiest way to generate your favorite solfege is
 to write a demo plugin.
 
-See [mindoc](0mindoc.md) for more information
+See [mindoc](../0mindoc.md) for more information
 
 by [Hiroki Horiuchi <x19290@gmail.com\>](mailto:x19290@gmail.com)
