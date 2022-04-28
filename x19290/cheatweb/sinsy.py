@@ -93,7 +93,7 @@ PARAMSPEC = dict(
         (
             r'Vocal bank index for the given spoken language '
             r'[from 0, max depends on language, default: %(default)s]. '
-            r'You must specify 4 or 5 for --language=en. '
+            r'You must specify 10, 11 or 12 for --language=en. '
             r'Very bad UI that directly comes from https://sinsy.jp/'
         ),
     ),
